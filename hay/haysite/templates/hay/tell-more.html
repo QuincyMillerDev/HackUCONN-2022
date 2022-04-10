@@ -2,6 +2,13 @@
 {% load static %}
 {% block content %}
 
+<div id="question-wrapper">
+    <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Would you like to reflect further?</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+        <a href="{% url 'tell-more' %}" class="button-anchor">No Thanks</a>
+    </div>
+</div>
 
 
 {% endblock content %}
