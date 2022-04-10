@@ -11,4 +11,8 @@ def question(request):
 def tellMore(request):
     context = {}
     return render(request, 'hay/tell-more.html', context)
+
+def dashboard(request):
+    context = {}
+    return render(request, 'hay/dashboard.html', context)
 # Create your views here.
