@@ -6,7 +6,8 @@
     <div class="mb-3">
         <label for="exampleFormControlTextarea1" class="form-label">Would you like to reflect further?</label>
         <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
-        <a href="{% url 'dashboard' %}" class="button-anchor">No Thanks</a>
+        <a href="{% url 'dashboard' %}" class="button-anchor-no" id="no">No Thanks</a>
+        <a href="{% url 'dashboard' %}" class="button-anchor-no hidden" id="submit">Submit</a>
     </div>
 </div>
 

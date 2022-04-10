@@ -9,7 +9,7 @@ const data = {
   labels: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
   datasets: [
  {
-      label: 'Your responses',
+      label: 'How well; did you sleep last night?',
       data: datapoints,
       borderColor: '#986b94',
       fill: false,

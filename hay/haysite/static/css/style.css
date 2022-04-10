@@ -197,6 +197,24 @@ a:hover {
     text-decoration: none;
     color:#986b94;
 }
+.button-anchor-no {
+    display: inline-block;
+    position: relative;
+    margin-top: 25%;
+    padding: 10px 20px;
+    appearance: none;
+    transition: all 0.15s ease-in-out;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    background: #986b94;
+    color:white;
+    border-radius: 8px;
+    outline: 0;
+    user-select: none;
+    cursor: pointer;
+}
+
 .button-anchor {
     display: inline-block;
     position: relative;
@@ -214,7 +232,12 @@ a:hover {
     user-select: none;
     cursor: pointer;
 }
+
 .button-anchor:hover {
+    background: black;
+    color:white;
+}
+.button-anchor-no:hover {
     background: black;
     color:white;
 
@@ -224,10 +247,14 @@ a:hover {
     position: relative;
     margin: 56px auto 0;
     margin-bottom: 50px;
-    border: 2px solid #000;
-    border-radius: 8px;
+    border: 2px solid #986b94;
+    border-radius: 10px;
     outline: 0;
-    background: #fff;
+    background: #986b94;
+    box-shadow:hsl(0, 0%, 60%) 0 0 18px;
+}
+.notification{
+    color:#e2f1f1;
 }
 
 p {
@@ -416,4 +443,8 @@ p {
     100% {
         transform: scale(1);
    }
+}
+
+.hidden {
+    display: none!important;
 }
