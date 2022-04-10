@@ -18,5 +18,5 @@ class Data(models.Model):
     user = models.ForeignKey(Person, on_delete=models.SET_NULL, blank=True, null=True)
     date = models.IntegerField(default=0, blank=True, null=True)
     question = models.ForeignKey(Questions, on_delete=models.SET_NULL, blank=True, null=True)
-    response = models.CharField(max_length=200, null=True)
+    response = models.CharField(max_length=200, null=True, blank=True)
 
