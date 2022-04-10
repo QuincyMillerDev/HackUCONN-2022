@@ -50,6 +50,9 @@ form {
     width: 90%;
     max-width: 500px;
 }
+#graph-space {
+    margin-top:25%;
+}
 form #form-title {
     margin-top: 0;
     font-weight: 400;
