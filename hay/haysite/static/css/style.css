@@ -1,32 +1,34 @@
 .brand {
     color: #986b94;
 }
+.nav {
+    margin:0
+}
 .navbar-custom ul {
+    padding:0;
+    margin:0;
+    width:100%;
     list-style-type:none;
-    margin:auto;
-    padding:10px;
-    overflow:hidden;
     font-size:20px;
-    text-align:center;
     background-color:#e2f1f1;
-    width: 100%;
     display:flex;
-    justify-content: space-evenly;
+    justify-content: left;
 }
 .navbar-custom li {
-    display:inline-block;
+    margin:0;
     text-align:center;
-    padding:10px 20px;
-    margin:0 30px;
 }
-.navbar-custom li:hover {
-    background-color:#e1eee7;
+.navbar-custom a {
+    margin:0;
+    padding:2px 20px;
+}
+.navbar-custom a:hover {
+    background-color:#CBB290;
     color:#986b94;
-    border-radius: 100px;
 }
 .navbar-custom a.active {
+    margin:0;
     background-color:#CBB290;
-    color:#e1eee7;
 }
 
 html, body {
