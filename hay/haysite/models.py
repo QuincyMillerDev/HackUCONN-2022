@@ -9,6 +9,13 @@ class Person(models.Model):
 
     def __str__(self):
         return self.id_num
+    
+    @property
+    def get_avg(self):
+        data = self.data_set.all()
+        avg = sum(data) / len(data)
+        return avg
+
 
 class Questions(models.Model):
     content = models.CharField(max_length=200, null=True)
