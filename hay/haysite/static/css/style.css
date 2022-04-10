@@ -21,6 +21,7 @@ html, body {
     align-items: center;
 }
 form {
+    margin-top: 10%;
     width: 90%;
     max-width: 500px;
 }
@@ -153,7 +154,7 @@ form + button {
     padding: 10px 20px;
     appearance: none;
     transition: all 0.15s ease-in-out;
-    font-family: inherit;
+    font-family: 'Poppins', sans-serif;
     font-size: 24px;
     font-weight: 600;
     background: #fff;
@@ -176,15 +177,13 @@ form + button:focus {
     color: #fff;
     pointer-events: none;
 }
-form + button:focus::before {
-    animation: spin 1s linear infinite;
-}
+
 form + button::before {
     display: inline-block;
     width: 0;
     opacity: 0;
     content: "\f3f4";
-    font-family: "Font Awesome 5 Pro";
+    font-family: 'Poppins', sans-serif;
     font-weight: 900;
     margin-right: 0;
     transform: rotate(0deg);
