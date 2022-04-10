@@ -2,8 +2,8 @@
     background-color:#e2f1f1;
 }
 
-.logo {
-    color: #986b94;
+.navbar-brand {
+    color: #986b94 !important;
     font-size: 25px;
 }
 
