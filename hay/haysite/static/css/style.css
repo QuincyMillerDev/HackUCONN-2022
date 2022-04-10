@@ -242,6 +242,7 @@ p {
     outline: 0;
     background: #986b94;
     color: white;
+    border-style: none;
 }
 
 .mb-3 {
