@@ -3,4 +3,9 @@
 }
 body {
     background: #CBB290;
+    font-family: 'Poppins', sans-serif;
+}
+.logo {
+    color: #986b94;
+    font-size: 25px;
 }
