@@ -2,23 +2,24 @@
 {% load static %}
 {% block content %}
 
-
 <div id="form-wrapper">
-    <form action="/p/quote.php" method="GET">
-        <h1 id="form-title">How are you feeling this morning?</h1>
-        <div id="hay-slider">
-            <input type="radio" name="mood-option" id="1" value="1" required>
-            <label for="1" data-mood-option="Not so well"></label>
-            <input type="radio" name="mood-option" id="2" value="2" required>
-            <label for="2" data-mood-option="I'm alright"></label>
-            <input type="radio" name="mood-option" id="3" value="3" required>
-            <label for="3" data-mood-option="Pretty okay"></label>
-            <input type="radio" name="mood-option" id="4" value="4" required>
-            <label for="4" data-mood-option="Feeling good"></label>
-            <input type="radio" name="mood-option" id="5" value="5" required>
-            <label for="5" data-mood-option="Amazing!"></label>
-        </div>
-    </form>
+	<form action="/p/quote.php" method="GET">
+		<h1 id="form-title">How did are you feeling?</h1>
+		<div id="debt-amount-slider">
+			<input type="radio" name="debt-amount" id="1" value="1" required>
+			<label for="1" data-debt-amount="Not good"></label>
+			<input type="radio" name="debt-amount" id="2" value="2" required>
+			<label for="2" data-debt-amount="I've been better"></label>
+			<input type="radio" name="debt-amount" id="3" value="3" required>
+			<label for="3" data-debt-amount="Pretty okay"></label>
+			<input type="radio" name="debt-amount" id="4" value="4" required>
+			<label for="4" data-debt-amount="Not bad"></label>
+			<input type="radio" name="debt-amount" id="5" value="5" required>
+			<label for="5" data-debt-amount="Amazing!"></label>
+			<div id="debt-amount-pos"></div>
+		</div>
+	</form>
+	<button type="submit">Submit</button>
 </div>
 
 {% endblock content %}
