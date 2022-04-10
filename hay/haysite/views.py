@@ -15,4 +15,7 @@ def tellMore(request):
 def dashboard(request):
     context = {}
     return render(request, 'hay/dashboard.html', context)
-# Create your views here.
+
+def schedule(request):
+    context = {}
+    return render(request, 'hay/schedule.html', context)

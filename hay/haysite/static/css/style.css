@@ -190,3 +190,12 @@ a:hover {
     background: black;
     color:white;
 }
+
+.wrapper {
+    position: relative;
+    margin: 56px auto 0;
+    padding: 10px 20px;
+    border: 2px solid #000;
+    background: #fff;
+}
+
